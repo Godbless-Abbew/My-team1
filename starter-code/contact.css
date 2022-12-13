@@ -23,6 +23,7 @@
 }
 
 body {
+    overflow-x: hidden;
     height: auto;
     background-color: #FFFFFF;
     font-family: 'Livvic', sans-serif;
@@ -71,6 +72,17 @@ header {
     font-size: 1rem;
 }
 
+.side-right{
+    position: absolute;
+    left: 90rem;
+    top: 26.3rem;
+}
+
+.side-left{
+    position: absolute;
+    right: 90rem;
+    top: 12rem;
+}
 
 
 .content{
@@ -124,18 +136,24 @@ header {
 }
 
 .content-body-right{
-    border: 2px solid rgb(160, 168, 8);
+    
 }
 
-.input-box{
+form .input-box{
     position: relative;
+    background: none;
     width: 100%;
     margin-top: 1rem;
 }
 
-.input-box input{
+form .input-box input,
+form.input-box textarea{
     width: 100%;
+    padding: 5px 0;
+    margin: 10px 0;
     border: none;
+    outline: none;
+    border-bottom: 2px solid #333;
 }
 
 .input-box button{
