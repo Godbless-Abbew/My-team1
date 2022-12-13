@@ -17,24 +17,21 @@
     --icon-svg: #79C8C7;
     --msg-text: #979797;
     --h3-color: #F67E7E;
-    --btn-color: ;
-    --msg-text-color: ;
-    --btn-color-hover: ;
-    --btn-color-active: ;
+    --desktop-width: 80vw;
+    --mobile-width: 95vw;
+    --tablet-width: 90vw;
 }
 
 body {
-    height: automate;
+    height: auto;
     background-color: #FFFFFF;
     font-family: 'Livvic', sans-serif;
-    border: 5px solid #947;
     background: var(--body-color);
 }
 
 .container {
     width: 100%;
      background: var(--body-color);
-     /* border: 1px solid black; */
 }
 
 header {
@@ -74,13 +71,77 @@ header {
     font-size: 1rem;
 }
 
+
+
 .content{
-    border: 2px solid black;
     display: flex;
     width: 75%;
     align-items: center;
+    justify-content: center;
     margin: 5rem auto;
 }
+
+.content-body {
+    width: 100%;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+
+}
+
+.content-body-left h1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 6rem;
+    color: #FFFFFF;
+}
+
+.content-body-left h3{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    color: #F67E7E;
+}
+
+.content-body-left p{
+    font-size: 1rem;
+    line-height: 3rem;
+    color: #FFFFFF;
+}
+
+.something {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.p-image {
+    display: flex;
+    gap: 1rem;
+}
+
+.p-image p {
+    margin-block: auto;
+}
+
+.content-body-right{
+    border: 2px solid rgb(160, 168, 8);
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.input-box input{
+    width: 100%;
+    border: none;
+}
+
+.input-box button{
+    border: 5px solid green;
+}
+
 /* Footer */
 
 .footer {
@@ -131,9 +192,8 @@ header {
     color: var(--footer-text);
 }
 
-.social-icons{
-    display: inline-block;
-    gap: 50rem;
+.social-icons img{
+   padding: 0.2rem 0.6rem;
 }
 
 @media screen and (max-width: 850px) {
@@ -141,4 +201,13 @@ header {
       grid-template-columns: 1fr;
     }
   
+  }
+
+  @media screen and (max-width: 480px) {
+    .content-body {
+
+       grid-template-columns: 1fr;
+    
+    }
+    
   }
