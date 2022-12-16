@@ -17,6 +17,7 @@
     --icon-svg: #79C8C7;
     --msg-text: #979797;
     --h3-color: #F67E7E;
+    --sidenav-color: #;
     --desktop-width: 80vw;
     --mobile-width: 95vw;
     --tablet-width: 90vw;
@@ -32,6 +33,7 @@ body {
 
 .container {
     width: 100%;
+    margin: 0 auto;
      background: var(--body-color);
 }
 
@@ -44,10 +46,74 @@ header {
 }
 
 .logo{
-    margin: 0px 0px 0px 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
 }
 
-.nav-links{
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+nav{
+    display: flex;
+    /* width: 20%; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav > a{
+    color: #FFFFFF;
+}
+
+nav:nth-child(1),nav:nth-child(2){
+
+}
+
+/* .logo{
+    margin: 0px 0px 0px 0.5rem;
+} */
+
+/* side bar */
+/* .sidenav{
+    height: 50%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--sidenav-color);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+} */
+
+/* .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+} */
+
+/* .sidenav a:hover {
+    color: #f1f1f1;
+} */
+
+/* .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+} */
+
+
+/* .nav-links{
     position: absolute;
     left: 500px;
     top: 65px;
@@ -55,11 +121,11 @@ header {
     width: 10%;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
-.nav-links a{
+/* .nav-links a{
     color: #FFF;
-}
+} */
 
 .btn-1{
     border-radius: 50px;
@@ -157,19 +223,21 @@ form .input-box textarea{
     resize: none;
     border: none;
     outline: none;
+    cursor: pointer;
     border-bottom: 2px solid var(--footer-text);
 }
 
 form .input-box input::placeholder,
 form .input-box textarea::placeholder{
-    line-height: 28px;
-    align-items: center;
-    justify-content: center;
+    line-height: 40px;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    background: transparent;
 }
 
-form .input-box input:active input,
-form .input-box textarea:active{
-    background: #79C8C7;
+form .input-box input:is(:focus,),
+form .input-box textarea:is(:focus){
+    border-bottom-color: #79C8C7;
 }
 .input-box button{
     padding: 10px 30px;
@@ -260,3 +328,14 @@ form .input-box textarea:active{
     }
     
   }
+
+  /* @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } */
+
+  @media screen and (max-width: 375px) {
+    .content {
+      grid-template-columns: 1fr;
+    }
+}
