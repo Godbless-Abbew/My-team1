@@ -41,6 +41,11 @@ HTML, CSS and JAVASCRIPT
 3. Learnt how to design a side bar using JavaScript.
 
 # Participants
+<<<<<<< HEAD
 [@ericmanu] (https://github.com/ericmanu) <br>
 [@Godbless-Abbew] (https://github.com/Godbless-Abbew)<br>
+=======
+[@ericmanu] (https://github.com/ericmanu)
+[@Godbless-Abbew] (https://github.com/Godbless-Abbew)
+>>>>>>> b0eeead (Updated read-me and added changes)
 [@kevin68107] (https://github.com/kevin68107)
