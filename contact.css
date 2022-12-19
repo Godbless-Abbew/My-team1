@@ -6,8 +6,14 @@
     box-sizing: border-box;
     list-style: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
     text-decoration: none;
     scroll-behavior: smooth;
+=======
+    text-decoration: none !important;;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+>>>>>>> f7d7c59 (Added new changes)
 =======
     text-decoration: none !important;;
     scroll-behavior: smooth;
@@ -266,6 +272,10 @@ form .input-box textarea:is(:focus){
     background: var(--footer-color);
     display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    /* width: %; */
+>>>>>>> f7d7c59 (Added new changes)
 =======
     /* width: %; */
 >>>>>>> f7d7c59 (Added new changes)
@@ -324,6 +334,7 @@ form .input-box textarea:is(:focus){
   
   }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   @media screen and (max-width: 768px) and (min-width: 481px) {
     body {
@@ -456,6 +467,8 @@ form .input-box textarea:is(:focus){
   }
   @media screen and (max-width: 480px) and (min-width: 320px) {
 =======
+=======
+>>>>>>> f7d7c59 (Added new changes)
   @media screen and (max-width: 768px){
     .footer-content .row {
         grid-template-columns: 1fr;
@@ -467,6 +480,9 @@ form .input-box textarea:is(:focus){
      }
   }
   @media screen and (max-width: 480px) {
+<<<<<<< HEAD
+>>>>>>> f7d7c59 (Added new changes)
+=======
 >>>>>>> f7d7c59 (Added new changes)
     .content-body {
 
@@ -514,6 +530,10 @@ form .input-box textarea:is(:focus){
         line-height: 36px;
         color: #FFFFFF;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        border: 2px solid black;
+>>>>>>> f7d7c59 (Added new changes)
 =======
         border: 2px solid black;
 >>>>>>> f7d7c59 (Added new changes)
@@ -663,12 +683,15 @@ form .input-box textarea:is(:focus){
         margin: 3rem 0;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     .content-right > nav{
         width: 100%;
     }
     .footer-nav-links{
         width: 100%;
     }
+=======
+>>>>>>> f7d7c59 (Added new changes)
 =======
 >>>>>>> f7d7c59 (Added new changes)
 
