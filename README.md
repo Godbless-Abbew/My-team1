@@ -42,10 +42,15 @@ HTML, CSS and JAVASCRIPT
 
 # Participants
 <<<<<<< HEAD
+<<<<<<< HEAD
 [@ericmanu] (https://github.com/ericmanu) <br>
 [@Godbless-Abbew] (https://github.com/Godbless-Abbew)<br>
 =======
 [@ericmanu] (https://github.com/ericmanu)
 [@Godbless-Abbew] (https://github.com/Godbless-Abbew)
 >>>>>>> b0eeead (Updated read-me and added changes)
+=======
+[@ericmanu] (https://github.com/ericmanu) <br>
+[@Godbless-Abbew] (https://github.com/Godbless-Abbew)<br>
+>>>>>>> 6fad61e (Added changes to the html, css and read-me)
 [@kevin68107] (https://github.com/kevin68107)
