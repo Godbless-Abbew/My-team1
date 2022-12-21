@@ -7,6 +7,7 @@
     list-style: none;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     text-decoration: none;
     scroll-behavior: smooth;
@@ -31,6 +32,11 @@
     -webkit-font-smoothing: antialiased;
 >>>>>>> f7d7c59 (Added new changes)
 >>>>>>> 7efc51b (Added new changes)
+=======
+
+    text-decoration: none;
+    scroll-behavior: smooth;
+>>>>>>> af353c0 (Added new changes)
 }
 
 :root{
@@ -271,14 +277,6 @@ form .input-box textarea:is(:focus){
 .footer {
     background: var(--footer-color);
     display: flex;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    /* width: %; */
->>>>>>> f7d7c59 (Added new changes)
-=======
-    /* width: %; */
->>>>>>> f7d7c59 (Added new changes)
     align-items: center;
     margin: 0 auto;
 }
@@ -340,6 +338,7 @@ form .input-box textarea:is(:focus){
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* Tablet view */
 
 =======
@@ -348,6 +347,9 @@ form .input-box textarea:is(:focus){
 =======
 <<<<<<< HEAD
 >>>>>>> 7efc51b (Added new changes)
+=======
+
+>>>>>>> af353c0 (Added new changes)
   @media screen and (max-width: 768px) and (min-width: 481px) {
     body {
         overflow-x: hidden;
@@ -484,9 +486,7 @@ form .input-box textarea:is(:focus){
   @media screen and (max-width: 480px) {
 =======
   @media screen and (max-width: 480px) and (min-width: 320px) {
-=======
-=======
->>>>>>> f7d7c59 (Added new changes)
+  }
   @media screen and (max-width: 768px){
     .footer-content .row {
         grid-template-columns: 1fr;
@@ -499,10 +499,13 @@ form .input-box textarea:is(:focus){
   }
   @media screen and (max-width: 480px) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f7d7c59 (Added new changes)
 =======
 >>>>>>> f7d7c59 (Added new changes)
 >>>>>>> c9058f9 (Added new changes)
+=======
+>>>>>>> af353c0 (Added new changes)
     .content-body {
 
        grid-template-columns: 1fr;
@@ -548,14 +551,6 @@ form .input-box textarea:is(:focus){
         font-size: 1.2rem;
         line-height: 36px;
         color: #FFFFFF;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        border: 2px solid black;
->>>>>>> f7d7c59 (Added new changes)
-=======
-        border: 2px solid black;
->>>>>>> f7d7c59 (Added new changes)
     }
 
     .links, .nav{
@@ -702,18 +697,12 @@ form .input-box textarea:is(:focus){
         align-items: center;
         margin: 3rem 0;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     .content-right > nav{
         width: 100%;
     }
     .footer-nav-links{
         width: 100%;
     }
-=======
->>>>>>> f7d7c59 (Added new changes)
-=======
->>>>>>> f7d7c59 (Added new changes)
 
     .address{
         width: 90%;
