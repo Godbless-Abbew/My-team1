@@ -5,8 +5,10 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+
     text-decoration: none;
     scroll-behavior: smooth;
+
 }
 
 :root{
@@ -444,6 +446,18 @@ form .input-box textarea:is(:focus){
       
   }
   @media screen and (max-width: 480px) and (min-width: 320px) {
+=======
+  @media screen and (max-width: 768px){
+    .footer-content .row {
+        grid-template-columns: 1fr;
+      }
+      .content-body {
+
+        grid-template-columns: 1fr;
+     
+     }
+  }
+  @media screen and (max-width: 480px) {
     .content-body {
 
        grid-template-columns: 1fr;
