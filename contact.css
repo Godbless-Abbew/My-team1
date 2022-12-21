@@ -5,41 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 5e2c0d0 (Added new changes)
     text-decoration: none;
     scroll-behavior: smooth;
-
-=======
-=======
->>>>>>> 7efc51b (Added new changes)
-<<<<<<< HEAD
-    text-decoration: none;
-    scroll-behavior: smooth;
-=======
-    text-decoration: none !important;;
-    scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
->>>>>>> f7d7c59 (Added new changes)
-<<<<<<< HEAD
->>>>>>> c9058f9 (Added new changes)
-=======
-=======
-    text-decoration: none !important;;
-    scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
->>>>>>> f7d7c59 (Added new changes)
->>>>>>> 7efc51b (Added new changes)
-=======
-
-    text-decoration: none;
-    scroll-behavior: smooth;
->>>>>>> af353c0 (Added new changes)
 }
 
 :root{
@@ -339,23 +306,8 @@ form .input-box textarea:is(:focus){
   
   }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   /* Tablet view */
 
-=======
-<<<<<<< HEAD
->>>>>>> c9058f9 (Added new changes)
-=======
-<<<<<<< HEAD
->>>>>>> 7efc51b (Added new changes)
-=======
-
->>>>>>> af353c0 (Added new changes)
-=======
->>>>>>> 5e2c0d0 (Added new changes)
   @media screen and (max-width: 768px) and (min-width: 481px) {
     body {
         overflow-x: hidden;
@@ -486,14 +438,8 @@ form .input-box textarea:is(:focus){
       }
       
   }
-<<<<<<< HEAD
 
   /* Mobile view Medium */
-  @media screen and (max-width: 480px) {
-=======
-  @media screen and (max-width: 480px) and (min-width: 320px) {
-<<<<<<< HEAD
-  }
   @media screen and (max-width: 768px){
     .footer-content .row {
         grid-template-columns: 1fr;
@@ -504,17 +450,8 @@ form .input-box textarea:is(:focus){
      
      }
   }
+
   @media screen and (max-width: 480px) {
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f7d7c59 (Added new changes)
-=======
->>>>>>> f7d7c59 (Added new changes)
->>>>>>> c9058f9 (Added new changes)
-=======
->>>>>>> af353c0 (Added new changes)
-=======
->>>>>>> 5e2c0d0 (Added new changes)
     .content-body {
 
        grid-template-columns: 1fr;
