@@ -8,7 +8,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5e2c0d0 (Added new changes)
     text-decoration: none;
     scroll-behavior: smooth;
 
@@ -339,6 +342,7 @@ form .input-box textarea:is(:focus){
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* Tablet view */
 
 =======
@@ -350,6 +354,8 @@ form .input-box textarea:is(:focus){
 =======
 
 >>>>>>> af353c0 (Added new changes)
+=======
+>>>>>>> 5e2c0d0 (Added new changes)
   @media screen and (max-width: 768px) and (min-width: 481px) {
     body {
         overflow-x: hidden;
@@ -486,6 +492,7 @@ form .input-box textarea:is(:focus){
   @media screen and (max-width: 480px) {
 =======
   @media screen and (max-width: 480px) and (min-width: 320px) {
+<<<<<<< HEAD
   }
   @media screen and (max-width: 768px){
     .footer-content .row {
@@ -506,6 +513,8 @@ form .input-box textarea:is(:focus){
 >>>>>>> c9058f9 (Added new changes)
 =======
 >>>>>>> af353c0 (Added new changes)
+=======
+>>>>>>> 5e2c0d0 (Added new changes)
     .content-body {
 
        grid-template-columns: 1fr;
