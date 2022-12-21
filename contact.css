@@ -5,10 +5,21 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+<<<<<<< HEAD
 
     text-decoration: none;
     scroll-behavior: smooth;
 
+=======
+<<<<<<< HEAD
+    text-decoration: none;
+    scroll-behavior: smooth;
+=======
+    text-decoration: none !important;;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+>>>>>>> f7d7c59 (Added new changes)
+>>>>>>> c9058f9 (Added new changes)
 }
 
 :root{
@@ -249,6 +260,10 @@ form .input-box textarea:is(:focus){
 .footer {
     background: var(--footer-color);
     display: flex;
+<<<<<<< HEAD
+=======
+    /* width: %; */
+>>>>>>> f7d7c59 (Added new changes)
     align-items: center;
     margin: 0 auto;
 }
@@ -308,8 +323,12 @@ form .input-box textarea:is(:focus){
   
   }
 
+<<<<<<< HEAD
   /* Tablet view */
 
+=======
+<<<<<<< HEAD
+>>>>>>> c9058f9 (Added new changes)
   @media screen and (max-width: 768px) and (min-width: 481px) {
     body {
         overflow-x: hidden;
@@ -440,9 +459,26 @@ form .input-box textarea:is(:focus){
       }
       
   }
+<<<<<<< HEAD
 
   /* Mobile view Medium */
   @media screen and (max-width: 480px) {
+=======
+  @media screen and (max-width: 480px) and (min-width: 320px) {
+=======
+  @media screen and (max-width: 768px){
+    .footer-content .row {
+        grid-template-columns: 1fr;
+      }
+      .content-body {
+
+        grid-template-columns: 1fr;
+     
+     }
+  }
+  @media screen and (max-width: 480px) {
+>>>>>>> f7d7c59 (Added new changes)
+>>>>>>> c9058f9 (Added new changes)
     .content-body {
 
        grid-template-columns: 1fr;
@@ -488,6 +524,10 @@ form .input-box textarea:is(:focus){
         font-size: 1.2rem;
         line-height: 36px;
         color: #FFFFFF;
+<<<<<<< HEAD
+=======
+        border: 2px solid black;
+>>>>>>> f7d7c59 (Added new changes)
     }
 
     .links, .nav{
@@ -634,12 +674,15 @@ form .input-box textarea:is(:focus){
         align-items: center;
         margin: 3rem 0;
     }
+<<<<<<< HEAD
     .content-right > nav{
         width: 100%;
     }
     .footer-nav-links{
         width: 100%;
     }
+=======
+>>>>>>> f7d7c59 (Added new changes)
 
     .address{
         width: 90%;
