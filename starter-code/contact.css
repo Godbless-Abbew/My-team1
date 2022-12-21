@@ -5,10 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-
-    text-decoration: none;
+    text-decoration: none !important;;
     scroll-behavior: smooth;
-
+    -webkit-font-smoothing: antialiased;
 }
 
 :root{
@@ -261,6 +260,7 @@ form .input-box textarea:is(:focus){
 .footer {
     background: var(--footer-color);
     display: flex;
+    /* width: %; */
     align-items: center;
     margin: 0 auto;
 }
@@ -316,137 +316,6 @@ form .input-box textarea:is(:focus){
   
   }
 
-  @media screen and (max-width: 768px) and (min-width: 481px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    .container {
-        overflow-x: hidden;
-        width: var(--tablet-width);
-    }
-
-    header {
-        display: flex;
-        width: 100%;
-        margin: 3rem .5rem 0 .5rem;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .logo{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 45%;
-    }
-
-    .logo > img{
-        width: 100px;
-    }
-    
-    .links{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 35%;
-    }
-
-    nav{
-        display: flex;
-        width: 25%;
-        align-items: center;
-        justify-content: space-between;
-        margin-right: 0;
-    }
-
-    .btn-1{
-        margin-right: 0;
-        font-size: .8rem;
-        padding: 8px 20px;
-    }
-
-    .content-body {
-        grid-template-columns: 1fr;
-        
-    }
-    .side-right{
-        position: absolute;
-        left: 41.5rem;
-        top: 60rem;
-        width: 88px;
-        overflow: hidden;
-    }
-    
-    .side-left{
-        position: absolute;
-        right: 43rem;
-        top: 12rem;
-    }
-
-    .footer{
-        position: absolute;
-        left: 0;
-        right: 0;
-    }
-    .content-body-left h1{
-        font-size: 64px;
-        font-weight: 700;
-        line-height: 56px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding-bottom: 2rem;
-    }
-
-    .content-body-left h3{
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 48px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding-bottom: 2rem;
-    }
-
-
-    .footer-content {
-        width: 100%;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: auto auto;
-        gap: 3rem;
-    }
-
-    .row {
-        margin: 2rem .5rem ;
-      }
-    
-    .footer-nav-links{
-        margin: 5rem 0 0;
-    }
-
-    .address > p{
-        text-align: right;
-    }
-    .socials{
-        display: flex;
-    }
-
-    .social-icons{
-        position: absolute;
-        left: 1rem;
-        margin-left: 0;
-      }
-
-      .socials > p{
-        position: absolute;
-        right: 1.4rem;
-      }
-      
-  }
-  @media screen and (max-width: 480px) and (min-width: 320px) {
-=======
   @media screen and (max-width: 768px){
     .footer-content .row {
         grid-template-columns: 1fr;
@@ -503,6 +372,7 @@ form .input-box textarea:is(:focus){
         font-size: 1.2rem;
         line-height: 36px;
         color: #FFFFFF;
+        border: 2px solid black;
     }
 
     .links, .nav{
@@ -647,12 +517,6 @@ form .input-box textarea:is(:focus){
         justify-content: center;
         align-items: center;
         margin: 3rem 0;
-    }
-    .content-right > nav{
-        width: 100%;
-    }
-    .footer-nav-links{
-        width: 100%;
     }
 
     .address{
