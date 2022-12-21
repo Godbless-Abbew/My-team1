@@ -5,10 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-
     text-decoration: none;
     scroll-behavior: smooth;
-
 }
 
 :root{
@@ -73,14 +71,6 @@ nav{
 .nav > a{
     color: #FFFFFF;
 }
-
-/* .openNav{
-    display: none;
-} */
-
-/* .logo{
-    margin: 0px 0px 0px 0.5rem;
-} */
 
 /* side bar */
 /* .sidenav{
@@ -206,10 +196,6 @@ nav{
     margin-block: auto;
 }
 
-/* .content-body-right{
-    
-} */
-
 form .input-box{
     position: relative;
     background:var(--body-color);
@@ -277,6 +263,10 @@ form .input-box textarea:is(:focus){
     gap: 3rem;
 }
 
+.foot-link{
+    width: 100%;
+}
+
 .footer-nav-links{
     width: 100%;
     display: flex;
@@ -315,6 +305,8 @@ form .input-box textarea:is(:focus){
     }
   
   }
+
+  /* Tablet view */
 
   @media screen and (max-width: 768px) and (min-width: 481px) {
     body {
@@ -373,8 +365,8 @@ form .input-box textarea:is(:focus){
     .side-right{
         position: absolute;
         left: 41.5rem;
-        top: 60rem;
-        width: 88px;
+        top: 61.5rem;
+        width: 104px;
         overflow: hidden;
     }
     
@@ -422,7 +414,8 @@ form .input-box textarea:is(:focus){
         margin: 2rem .5rem ;
       }
     
-    .footer-nav-links{
+    .foot-link{
+        width: 40%;
         margin: 5rem 0 0;
     }
 
@@ -445,8 +438,8 @@ form .input-box textarea:is(:focus){
       }
       
   }
-  @media screen and (max-width: 480px) and (min-width: 320px) {
-=======
+
+  /* Mobile view Medium */
   @media screen and (max-width: 768px){
     .footer-content .row {
         grid-template-columns: 1fr;
@@ -457,6 +450,7 @@ form .input-box textarea:is(:focus){
      
      }
   }
+
   @media screen and (max-width: 480px) {
     .content-body {
 
@@ -566,6 +560,7 @@ form .input-box textarea:is(:focus){
     }
 }
 
+/* Mobile view small */
   @media screen and (max-width: 375px) {
     body{
         overflow-x: hidden;
