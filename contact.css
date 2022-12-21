@@ -382,6 +382,11 @@ form .input-box textarea:is(:focus){
         top: 12rem;
     }
 
+    .footer{
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
     .content-body-left h1{
         font-size: 64px;
         font-weight: 700;
@@ -401,6 +406,7 @@ form .input-box textarea:is(:focus){
         text-align: center;
         padding-bottom: 2rem;
     }
+
 
     .footer-content {
         width: 100%;
