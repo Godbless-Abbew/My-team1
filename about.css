@@ -192,10 +192,13 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ddfd99b (Added changes)
 =======
 >>>>>>> 0116b90 (Added changes)
+=======
+>>>>>>> de19576 (Added changes)
     perspective: 1000px;
 }
 /* images */
@@ -204,6 +207,7 @@ body {
     margin-top: 2rem;
     border-radius: 800rem;
     border: 2px solid #c4fffe;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,6 +234,8 @@ body {
     margin-top: 2rem;
     border-radius: 800rem;
     border: 2px solid #c4fffe;
+=======
+>>>>>>> de19576 (Added changes)
 }
 
 .box h3 {
@@ -256,6 +262,7 @@ body {
 .flip-card-inner {
     transition: transform 2s;
     transform-style: preserve-3d;
+<<<<<<< HEAD
 }
 
 .box:hover .flip-card-inner {
@@ -370,6 +377,8 @@ body {
 .flip-card-inner {
     transition: transform 2s;
     transform-style: preserve-3d;
+=======
+>>>>>>> de19576 (Added changes)
     cursor: pointer;
 }
 
@@ -572,12 +581,15 @@ body {
     align-items: center;
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
 =======
 =======
 >>>>>>> f549e73 (Added files)
 >>>>>>> 26f961b (Added changes)
+=======
+>>>>>>> de19576 (Added changes)
 .close-svg:hover {
     cursor: pointer;
     background-color: #F67E7E;
@@ -603,6 +615,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* clients section */
 =======
 
@@ -624,6 +637,9 @@ body {
 /* clients section */
 >>>>>>> f549e73 (Added files)
 >>>>>>> 26f961b (Added changes)
+=======
+/* clients section */
+>>>>>>> de19576 (Added changes)
 .content-clients {
     width: 100%;
     height: 437px;
@@ -634,6 +650,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 =======
@@ -642,10 +659,13 @@ body {
 =======
 >>>>>>> f549e73 (Added files)
 >>>>>>> 26f961b (Added changes)
+=======
+>>>>>>> de19576 (Added changes)
 .circ-svg{
     display: none;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -663,6 +683,8 @@ body {
 =======
 >>>>>>> f549e73 (Added files)
 >>>>>>> 26f961b (Added changes)
+=======
+>>>>>>> de19576 (Added changes)
 .container-hay {
     width: 57.5rem;
     height: 48px;
@@ -678,6 +700,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* logos */
 =======
 
@@ -699,6 +722,9 @@ body {
 /* logos */
 >>>>>>> f549e73 (Added files)
 >>>>>>> 26f961b (Added changes)
+=======
+/* logos */
+>>>>>>> de19576 (Added changes)
 .logos-container {
     display: flex;
     width: 68.75rem;
@@ -712,15 +738,19 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ddfd99b (Added changes)
 =======
 >>>>>>> 26f961b (Added changes)
+=======
+>>>>>>> de19576 (Added changes)
 /* contact section */
 .content-contact {
     width: 100%;
     height: 200px;
     background: #F67E7E;    
+<<<<<<< HEAD
 =======
 
 .content-contact {
@@ -750,6 +780,8 @@ body {
     background: #F67E7E;    
 >>>>>>> f549e73 (Added files)
 >>>>>>> 26f961b (Added changes)
+=======
+>>>>>>> de19576 (Added changes)
 }
 
 .contain {
@@ -771,6 +803,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* button */
 =======
 
@@ -792,6 +825,9 @@ body {
 /* button */
 >>>>>>> f549e73 (Added files)
 >>>>>>> 26f961b (Added changes)
+=======
+/* button */
+>>>>>>> de19576 (Added changes)
 .button-1 {
     width: 9.563rem;
     height: 3rem;
@@ -801,6 +837,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     color: #012F34;
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
@@ -818,11 +855,14 @@ body {
 =======
 >>>>>>> f549e73 (Added files)
 >>>>>>> 26f961b (Added changes)
+=======
+>>>>>>> de19576 (Added changes)
     background: none;
     font-weight: 700;
     font-size: 1rem;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -835,6 +875,8 @@ body {
 =======
 >>>>>>> f549e73 (Added files)
 >>>>>>> 26f961b (Added changes)
+=======
+>>>>>>> de19576 (Added changes)
 .button-1 a{
     text-decoration: none;
     color: #012F34;
@@ -850,11 +892,11 @@ body {
     cursor: pointer;
 }
 /* svg */
-<<<<<<< HEAD
 .circle-svg-3 {
     margin-top: -68px;
 }
 /* footer section */
+<<<<<<< HEAD
 =======
 .circle-svg-3 {
     margin-top: -68px;
@@ -880,6 +922,8 @@ body {
 /* footer section */
 >>>>>>> f549e73 (Added files)
 >>>>>>> 26f961b (Added changes)
+=======
+>>>>>>> de19576 (Added changes)
 .footer {
     width: 100%;
     height: 196px;
@@ -925,6 +969,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* social-media svg's */
 =======
 
@@ -946,6 +991,9 @@ body {
 /* social-media svg's */
 >>>>>>> f549e73 (Added files)
 >>>>>>> 26f961b (Added changes)
+=======
+/* social-media svg's */
+>>>>>>> de19576 (Added changes)
 .handle {
     width: 6.5rem;
     height: 24px;
@@ -958,6 +1006,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* copyright */
 =======
 
@@ -979,6 +1028,9 @@ body {
 /* copyright */
 >>>>>>> f549e73 (Added files)
 >>>>>>> 26f961b (Added changes)
+=======
+/* copyright */
+>>>>>>> de19576 (Added changes)
 .copyright {
     height: 25px;
     width: 15.938rem;
@@ -992,6 +1044,7 @@ body {
     mix-blend-mode: normal;
     opacity: 0.6;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1027,6 +1080,10 @@ body {
 =======
 >>>>>>> 4315a83 (About files)
 >>>>>>> 5c6129b (Added changes)
+=======
+/* Tablet responsiveness */
+@media  only screen and (max-width:768px) and (min-width:480px) {
+>>>>>>> de19576 (Added changes)
     .page{
         width: 100%;
         height: 100%;
@@ -1393,19 +1450,10 @@ body {
     .container-2{        
         margin-left: 15px;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2405121 (Added changes to the html, css and read-me)
     .container-2 .cross-svg{
         position: absolute;
         margin-top: 14rem;
     }
-<<<<<<< HEAD
-=======
->>>>>>> f549e73 (Added files)
-=======
->>>>>>> 2405121 (Added changes to the html, css and read-me)
     .container-1{
         display: none;
     }
@@ -1558,6 +1606,7 @@ body {
     .footer-content{
         margin-left: 2.5rem;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 =======
@@ -2048,3 +2097,6 @@ body {
 }
 >>>>>>> f549e73 (Added files)
 >>>>>>> 26f961b (Added changes)
+=======
+}
+>>>>>>> de19576 (Added changes)
