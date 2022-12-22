@@ -227,6 +227,11 @@ body {
     -o-border-radius: 28px;
 }
 
+.cross-svg:hover {
+    cursor: pointer;
+    background-color: #79C8C7;
+}
+
 .box h2 {
     height: 28px;
     width: 18.875rem;
@@ -255,7 +260,12 @@ body {
     margin-left: 141px;
     margin-top: 24px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.social-svg :hover {
+    cursor: pointer;
+    fill: #F67E7E;
 }
 
 .close-svg {
@@ -271,6 +281,7 @@ body {
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
 }
 
+<<<<<<< HEAD
 .box h3 {
     height: 28px;
     width: 18.875rem;
@@ -382,6 +393,8 @@ body {
     align-items: center;
 }
 
+=======
+>>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
 .close-svg:hover {
     cursor: pointer;
     background-color: #F67E7E;
@@ -390,7 +403,11 @@ body {
 .wrapper-tablet {
     display: none;
 }
+<<<<<<< HEAD
 /* svg */
+=======
+
+>>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
 .square-svg {
     margin-left: 86rem;
     margin-top: 1.2rem;
@@ -587,8 +604,14 @@ body {
     opacity: 0.6;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Tablet responsiveness */
 @media  only screen and (max-width:768px) and (min-width:480px) {
+=======
+
+@media  only screen and (max-width:768px) and (min-width:480px) {
+
+>>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
     .page{
         width: 100%;
         height: 100%;
@@ -602,6 +625,7 @@ body {
         margin: 4rem 2.5rem;
     }
     .hero{
+<<<<<<< HEAD
         width: 42.688rem;
         height: 220px;
         margin-left: 4.375rem;
@@ -611,20 +635,39 @@ body {
         height: 56px;
         text-align: center;
         margin-top: 1.25rem;
+=======
+        width: 683px;
+        height: 220px;
+        margin-left: 70px;
+    }
+    .about h1{
+        width: 683px;
+        height: 56px;
+        text-align: center;
+        margin-top: 20px;
+>>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
     }
     .rect-svg{
         display: none;
     }
     .content-head{
+<<<<<<< HEAD
         width: 27.5rem;
         height: 140px;
         margin-left: -40.625rem;
         margin-top: 7.5rem;
+=======
+        width: 440px;
+        height: 140px;
+        margin-left: -650px;
+        margin-top: 120px;
+>>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
         font-size: 15px;
         font-weight: 600;
         text-align: center;
     }
     .circle-svg{
+<<<<<<< HEAD
         margin-top: 10.625rem;
         margin-left: -9.375rem;
     }
@@ -632,15 +675,26 @@ body {
         width: 100%;
         height: 76.188rem;
         z-index: 1;
+=======
+        margin-top: 170px;
+        margin-left: -150px;
+    }
+    .layout{
+        width: 100%;
+        height: 1219px;
+>>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
     }
     .meet{
         margin-top: 90px;
         margin-left: -80px;
         font-size: 32px;
     }
+<<<<<<< HEAD
     .circle-svg-0{
         display: none;
     }
+=======
+>>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
     .circle-svg-1{
         margin-top: -137px;
     }
@@ -657,11 +711,14 @@ body {
         margin: 97px;
         margin-top: -30px;
     }
+<<<<<<< HEAD
     .container-1{
         justify-content: space-between;
         margin: 97px;
         margin-top: -30px;
     }
+=======
+>>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
     .box{
         height: 253px;
         width: 17.563rem;
@@ -695,6 +752,7 @@ body {
     .social-svg{
         margin-left: 115px;
     }
+<<<<<<< HEAD
     .container-2{
         display: none;
     }
@@ -1034,3 +1092,7 @@ body {
 }
 =======
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
+=======
+
+}
+>>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
