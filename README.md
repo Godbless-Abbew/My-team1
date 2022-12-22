@@ -44,6 +44,7 @@ HTML, CSS and JAVASCRIPT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [@ericmanu] (https://github.com/ericmanu) <br>
 [@Godbless-Abbew] (https://github.com/Godbless-Abbew)<br>
 =======
@@ -58,4 +59,8 @@ HTML, CSS and JAVASCRIPT
 [@ericmanu] (https://github.com/ericmanu)
 [@Godbless-Abbew] (https://github.com/Godbless-Abbew)
 >>>>>>> 41b874a (Added changes)
+=======
+[@ericmanu] (https://github.com/ericmanu) <br>
+[@Godbless-Abbew] (https://github.com/Godbless-Abbew)<br>
+>>>>>>> 0116b90 (Added changes)
 [@kevin68107] (https://github.com/kevin68107)
