@@ -1183,6 +1183,7 @@ body {
     }
     .circle-svg-1 svg{
         margin-top: -40px;
+<<<<<<< HEAD
         z-index: -1;
     }
     /*
@@ -1316,3 +1317,6 @@ body {
     */
 } 
 >>>>>>> 8c4bd13 (Finished tablet responsiveness and started mobile responsiveness)
+=======
+    }
+>>>>>>> e2e3bcd (Finished tablet responsiveness and started mobile responsiveness)
