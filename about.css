@@ -235,9 +235,10 @@ body {
 .flip-card-inner {
     transition: transform 2s;
     transform-style: preserve-3d;
+    cursor: pointer;
 }
 
-.box:hover .flip-card-inner {
+.flip-card-inner.flip {
     transform: rotateY(180deg);
 }
 
