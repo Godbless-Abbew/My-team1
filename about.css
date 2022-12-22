@@ -190,6 +190,9 @@ body {
     background-color: #012F34;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ddfd99b (Added changes)
     perspective: 1000px;
 }
 /* images */
@@ -199,6 +202,7 @@ body {
     border-radius: 800rem;
     border: 2px solid #c4fffe;
 =======
+<<<<<<< HEAD
 =======
     perspective: 1000px;
 >>>>>>> a4c87cc (Added changes)
@@ -209,6 +213,100 @@ body {
     margin-top: 2rem;
     border-radius: 800rem;
     border: 2px solid #c4fffe;
+=======
+}
+
+.box img {
+    width: 6rem;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    border: 2px solid #c4fffe;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}
+
+.box h3 {
+    height: 28px;
+    width: 18.875rem;
+    text-align: center;
+    margin-left: 24px;
+    color: #79C8C7;
+    font-size: 18px;
+}
+
+.box h4 {
+    height: 25px;
+    width: 18.875rem;
+    text-align: center;
+    margin-left: 24px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.cross-svg {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: 38px;
+    margin-left: 147px;
+    background: #F67E7E;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+}
+
+.box h2 {
+    height: 28px;
+    width: 18.875rem;
+    text-align: center;
+    margin-left: 24px;
+    margin-top: 35px;
+    color: #79C8C7;
+    font-size: 18px;
+}
+
+.box h5 {
+    height: 75px;
+    width: 15.875rem;
+    margin-left: 48px;
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.social-svg {
+    width: 3.75rem;
+    height: 20px;
+    margin-left: 141px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.close-svg {
+    width: 3.5rem;
+    height: 56px;
+    margin-top: 38px;
+    margin-left: 147px;
+    background: #79C8C7;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+>>>>>>> 1778255 (Added new files)
+>>>>>>> ddfd99b (Added changes)
 }
 
 .box h3 {
@@ -461,6 +559,7 @@ body {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* clients section */
 =======
 
@@ -468,6 +567,12 @@ body {
 =======
 /* clients section */
 >>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
+=======
+/* clients section */
+=======
+
+>>>>>>> 1778255 (Added new files)
+>>>>>>> ddfd99b (Added changes)
 .content-clients {
     width: 100%;
     height: 437px;
@@ -476,17 +581,25 @@ body {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
+=======
+>>>>>>> ddfd99b (Added changes)
 .circ-svg{
     display: none;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
 =======
 >>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
+=======
+=======
+>>>>>>> 1778255 (Added new files)
+>>>>>>> ddfd99b (Added changes)
 .container-hay {
     width: 57.5rem;
     height: 48px;
@@ -500,6 +613,7 @@ body {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* logos */
 =======
 
@@ -507,6 +621,12 @@ body {
 =======
 /* logos */
 >>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
+=======
+/* logos */
+=======
+
+>>>>>>> 1778255 (Added new files)
+>>>>>>> ddfd99b (Added changes)
 .logos-container {
     display: flex;
     width: 68.75rem;
@@ -518,6 +638,9 @@ body {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ddfd99b (Added changes)
 /* contact section */
 .content-contact {
     width: 100%;
@@ -530,6 +653,7 @@ body {
     height: 200px;
     background: #F67E7E;
     
+<<<<<<< HEAD
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
 =======
 /* contact section */
@@ -538,6 +662,9 @@ body {
     height: 200px;
     background: #F67E7E;    
 >>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
+=======
+>>>>>>> 1778255 (Added new files)
+>>>>>>> ddfd99b (Added changes)
 }
 
 .contain {
@@ -557,6 +684,7 @@ body {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* button */
 =======
 
@@ -564,6 +692,12 @@ body {
 =======
 /* button */
 >>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
+=======
+/* button */
+=======
+
+>>>>>>> 1778255 (Added new files)
+>>>>>>> ddfd99b (Added changes)
 .button-1 {
     width: 9.563rem;
     height: 3rem;
@@ -571,11 +705,17 @@ body {
     border-radius: 24px ;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     color: #012F34;
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
 =======
 >>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
+=======
+=======
+    color: #012F34;
+>>>>>>> 1778255 (Added new files)
+>>>>>>> ddfd99b (Added changes)
     background: none;
     font-weight: 700;
     font-size: 1rem;
@@ -583,8 +723,11 @@ body {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
+=======
+>>>>>>> ddfd99b (Added changes)
 .button-1 a{
     text-decoration: none;
     color: #012F34;
@@ -610,6 +753,7 @@ body {
     margin-top: -68px;
 }
 
+<<<<<<< HEAD
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
 =======
 .circle-svg-3 {
@@ -617,6 +761,9 @@ body {
 }
 /* footer section */
 >>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
+=======
+>>>>>>> 1778255 (Added new files)
+>>>>>>> ddfd99b (Added changes)
 .footer {
     width: 100%;
     height: 196px;
@@ -660,6 +807,7 @@ body {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* social-media svg's */
 =======
 
@@ -667,6 +815,12 @@ body {
 =======
 /* social-media svg's */
 >>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
+=======
+/* social-media svg's */
+=======
+
+>>>>>>> 1778255 (Added new files)
+>>>>>>> ddfd99b (Added changes)
 .handle {
     width: 6.5rem;
     height: 24px;
@@ -677,6 +831,7 @@ body {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* copyright */
 =======
 
@@ -684,6 +839,12 @@ body {
 =======
 /* copyright */
 >>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
+=======
+/* copyright */
+=======
+
+>>>>>>> 1778255 (Added new files)
+>>>>>>> ddfd99b (Added changes)
 .copyright {
     height: 25px;
     width: 15.938rem;
@@ -700,6 +861,9 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ddfd99b (Added changes)
 /* Tablet responsiveness */
 @media  only screen and (max-width:768px) and (min-width:480px) {
 <<<<<<< HEAD
@@ -1237,6 +1401,7 @@ body {
     }
 }
 =======
+<<<<<<< HEAD
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
 =======
 
@@ -1714,3 +1879,6 @@ body {
     }
 }
 >>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
+=======
+>>>>>>> 1778255 (Added new files)
+>>>>>>> ddfd99b (Added changes)
