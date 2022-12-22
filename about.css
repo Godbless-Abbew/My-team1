@@ -61,6 +61,9 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .button a{
     text-decoration: none;
     color: #FFFFFF;
@@ -80,12 +83,15 @@ body {
     display: none;
 }
 /* About */
+<<<<<<< HEAD
 =======
 .menu-svg {
     display: none;
 }
 
 >>>>>>> 8c4bd13 (Finished tablet responsiveness and started mobile responsiveness)
+=======
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .hero {
     width: 80%;    
     height: 9.75rem;
@@ -119,7 +125,7 @@ body {
 }
 /* svg */
 .circle-svg {
-    margin-left: 7.2rem;
+    margin-left: 8.2rem;
     margin-top: 7.6rem;
 }
 /* layout section */
@@ -145,10 +151,14 @@ body {
     display: none;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* svg */
 =======
 
 >>>>>>> a4df894 (Worked on the mobile responsiveness)
+=======
+/* svg */
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .circle-svg-1 {
     margin-top: -188px;
 }
@@ -189,16 +199,12 @@ body {
     border: 2px solid #c4fffe;
 =======
 }
-
+/* images */
 .box img {
     width: 6rem;
     margin-top: 2rem;
     border-radius: 3rem;
     border: 2px solid #c4fffe;
-    -webkit-border-radius: 3rem;
-    -moz-border-radius: 3rem;
-    -ms-border-radius: 3rem;
-    -o-border-radius: 3rem;
 }
 
 .box h3 {
@@ -221,7 +227,7 @@ body {
     line-height: 25px;
     color: #FFFFFF;
 }
-
+/* svg */
 .cross-svg {
     width: 3.5rem;
     height: 3.5rem;
@@ -232,10 +238,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    -webkit-border-radius: 28px;
-    -moz-border-radius: 28px;
-    -ms-border-radius: 28px;
-    -o-border-radius: 28px;
 }
 
 .cross-svg:hover {
@@ -264,7 +266,7 @@ body {
     text-align: center;
     color: #FFFFFF;
 }
-
+/* svg */
 .social-svg {
     width: 3.75rem;
     height: 20px;
@@ -278,7 +280,7 @@ body {
     cursor: pointer;
     fill: #F67E7E;
 }
-
+/* svg */
 .close-svg {
     width: 3.5rem;
     height: 56px;
@@ -415,19 +417,27 @@ body {
     display: none;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* svg */
 =======
 
 >>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
+=======
+/* svg */
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .square-svg {
     margin-left: 86rem;
     margin-top: 1.2rem;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* clients section */
 =======
 
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
+=======
+/* clients section */
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .content-clients {
     width: 100%;
     height: 437px;
@@ -435,12 +445,18 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .circ-svg{
     display: none;
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
+=======
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .container-hay {
     width: 57.5rem;
     height: 48px;
@@ -453,10 +469,14 @@ body {
     color: #FFFFFF;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* logos */
 =======
 
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
+=======
+/* logos */
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .logos-container {
     display: flex;
     width: 68.75rem;
@@ -466,6 +486,7 @@ body {
     text-align: center;
     justify-content: space-between;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* contact section */
 .content-contact {
@@ -480,6 +501,13 @@ body {
     background: #F67E7E;
     
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
+=======
+/* contact section */
+.content-contact {
+    width: 100%;
+    height: 200px;
+    background: #F67E7E;    
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 }
 
 .contain {
@@ -498,25 +526,35 @@ body {
     color: #012F34;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* button */
 =======
 
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
+=======
+/* button */
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .button-1 {
     width: 9.563rem;
     height: 3rem;
     border: 2px solid #012F34;
     border-radius: 24px ;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     color: #012F34;
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
+=======
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
     background: none;
     font-weight: 700;
     font-size: 1rem;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .button-1 a{
     text-decoration: none;
     color: #012F34;
@@ -532,6 +570,7 @@ body {
     cursor: pointer;
 }
 /* svg */
+<<<<<<< HEAD
 .circle-svg-3 {
     margin-top: -68px;
 }
@@ -542,6 +581,12 @@ body {
 }
 
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
+=======
+.circle-svg-3 {
+    margin-top: -68px;
+}
+/* footer section */
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .footer {
     width: 100%;
     height: 196px;
@@ -584,10 +629,14 @@ body {
     letter-spacing: 1px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* social-media svg's */
 =======
 
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
+=======
+/* social-media svg's */
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .handle {
     width: 6.5rem;
     height: 24px;
@@ -597,10 +646,14 @@ body {
     justify-content: space-around;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* copyright */
 =======
 
 >>>>>>> 2e48952 (Added new lines to the html and css lines)
+=======
+/* copyright */
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .copyright {
     height: 25px;
     width: 15.938rem;
@@ -616,10 +669,14 @@ body {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Tablet responsiveness */
 @media  only screen and (max-width:768px) and (min-width:480px) {
 =======
 
+=======
+/* Tablet responsiveness */
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 @media  only screen and (max-width:768px) and (min-width:480px) {
 
 >>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
@@ -637,6 +694,7 @@ body {
     }
     .hero{
 <<<<<<< HEAD
+<<<<<<< HEAD
         width: 42.688rem;
         height: 220px;
         margin-left: 4.375rem;
@@ -648,20 +706,28 @@ body {
         margin-top: 1.25rem;
 =======
         width: 683px;
+=======
+        width: 42.688rem;
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
         height: 220px;
-        margin-left: 70px;
+        margin-left: 4.375rem;
     }
     .about h1{
-        width: 683px;
+        width: 42.688rem;
         height: 56px;
         text-align: center;
+<<<<<<< HEAD
         margin-top: 20px;
 >>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
+=======
+        margin-top: 1.25rem;
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
     }
     .rect-svg{
         display: none;
     }
     .content-head{
+<<<<<<< HEAD
 <<<<<<< HEAD
         width: 27.5rem;
         height: 140px;
@@ -673,11 +739,18 @@ body {
         margin-left: -650px;
         margin-top: 120px;
 >>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
+=======
+        width: 27.5rem;
+        height: 140px;
+        margin-left: -40.625rem;
+        margin-top: 7.5rem;
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
         font-size: 15px;
         font-weight: 600;
         text-align: center;
     }
     .circle-svg{
+<<<<<<< HEAD
 <<<<<<< HEAD
         margin-top: 10.625rem;
         margin-left: -9.375rem;
@@ -696,6 +769,14 @@ body {
 <<<<<<< HEAD
 >>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
 =======
+=======
+        margin-top: 10.625rem;
+        margin-left: -9.375rem;
+    }
+    .layout{
+        width: 100%;
+        height: 76.188rem;
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
         z-index: 1;
 >>>>>>> 8c4bd13 (Finished tablet responsiveness and started mobile responsiveness)
     }
@@ -1259,6 +1340,9 @@ body {
     .circle-svg-2 svg{
         margin-top: -100px;
     }
+    .circ-svg{
+        display: none;
+    }
     .container-hay{
         width: 457px;
         height: 32px;
@@ -1333,10 +1417,18 @@ body {
         margin-top: -20px;       
     } 
 }
+<<<<<<< HEAD
     */
 } 
 >>>>>>> 8c4bd13 (Finished tablet responsiveness and started mobile responsiveness)
 =======
+=======
+/* Mobile responsiveness */
+@media  only screen and (max-width:480px) and (min-width:320px) {
+    .page{
+        width: 100%;
+        height: 100%;
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
     }
 <<<<<<< HEAD
 >>>>>>> e2e3bcd (Finished tablet responsiveness and started mobile responsiveness)
@@ -1371,16 +1463,20 @@ body {
         text-align: center;
     }
     .about h1{
-        margin-top: -30px;
+        margin-top: -50px;
         font-size: 40px;
         margin-left: -10px;
     }
     .content-head{
         width: 320px;
-        margin-top: 40px;
+        margin-top: 10px;
         margin-left: -390px;
         font-size: 15px;
         text-align: center;
+    }
+    .circle-svg{
+        margin-left: -11.8rem;
+        margin-top: 15rem;
     }
     .circle-svg-1{
         display: none;
@@ -1389,8 +1485,6 @@ body {
         display: inline;
         position: relative;
         top: -8rem;
-        /* margin-left: -11.8rem;
-        margin-top: 15rem; */
     }
     .layout{
         width: 100%;
@@ -1431,7 +1525,6 @@ body {
     }
     .box h2 {
         position: absolute;
-        /* margin-top: 58px; */
     }    
     .box h5{        
         position: absolute;
@@ -1455,8 +1548,10 @@ body {
         height: 632px;
     }
     .circle-svg-2{
-        margin-top: -100px;
-        margin-left: -100px;
+        display: none;
+    }
+    .circ-svg{
+        display: inline;
     }
     .container-hay{
         margin-left: -275px;
@@ -1545,4 +1640,40 @@ body {
         margin-top: 1rem;
     }
 }
+<<<<<<< HEAD
 >>>>>>> a4df894 (Worked on the mobile responsiveness)
+=======
+
+@media only screen and (max-width: 420px) and (min-width: 398px) {
+    .menu-svg{
+        margin-left: 10rem;
+    }
+    .about{
+        margin-left: 1.5rem;
+    }
+    .circle-svg{
+        margin-left: -10.9rem;
+    }
+    .meet h1{
+        margin-left: 3rem;
+    }
+    .container-2{        
+        margin-left: 2rem;
+    }
+    .square-svg{
+        margin-left: 16.7rem;
+    }
+    .container-hay{
+        margin-left: -16rem;
+    }
+    .logos-container{
+        margin-left: 7.5rem;
+    }
+    .contain{
+        margin-left: 3rem;
+    }
+    .footer-content{
+        margin-left: 2.5rem;
+    }
+}
+>>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
