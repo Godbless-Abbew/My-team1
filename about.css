@@ -60,10 +60,6 @@ body {
     font-size: 1rem;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .button a{
     text-decoration: none;
     color: #FFFFFF;
@@ -83,15 +79,6 @@ body {
     display: none;
 }
 /* About */
-<<<<<<< HEAD
-=======
-.menu-svg {
-    display: none;
-}
-
->>>>>>> 8c4bd13 (Finished tablet responsiveness and started mobile responsiveness)
-=======
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .hero {
     width: 80%;    
     height: 9.75rem;
@@ -150,15 +137,7 @@ body {
 .circle-svg-0 {
     display: none;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* svg */
-=======
-
->>>>>>> a4df894 (Worked on the mobile responsiveness)
-=======
-/* svg */
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .circle-svg-1 {
     margin-top: -188px;
 }
@@ -188,17 +167,6 @@ body {
     height: 253px;
     width: 21.875rem;
     background-color: #012F34;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ddfd99b (Added changes)
-=======
->>>>>>> 0116b90 (Added changes)
-=======
->>>>>>> de19576 (Added changes)
     perspective: 1000px;
 }
 /* images */
@@ -207,35 +175,6 @@ body {
     margin-top: 2rem;
     border-radius: 800rem;
     border: 2px solid #c4fffe;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    perspective: 1000px;
->>>>>>> a4c87cc (Added changes)
-}
-/* images */
-.box img {
-    width: 6rem;
-    margin-top: 2rem;
-    border-radius: 800rem;
-    border: 2px solid #c4fffe;
-=======
-=======
-=======
-    perspective: 1000px;
->>>>>>> 2405121 (Added changes to the html, css and read-me)
->>>>>>> 0116b90 (Added changes)
-}
-/* images */
-.box img {
-    width: 6rem;
-    margin-top: 2rem;
-    border-radius: 800rem;
-    border: 2px solid #c4fffe;
-=======
->>>>>>> de19576 (Added changes)
 }
 
 .box h3 {
@@ -262,123 +201,6 @@ body {
 .flip-card-inner {
     transition: transform 2s;
     transform-style: preserve-3d;
-<<<<<<< HEAD
-}
-
-.box:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-.flip-card-front {
-    background-color: #bbb;
-    color: black;
-}
-  
-.flip-card-back {
-    transform: rotateY(180deg);
-}
-/* svg */
-.cross-svg {
-    width: 3.5rem;
-    height: 3.5rem;
-    margin-top: 14rem;
-    margin-left: 147px;
-    background: #F67E7E;
-    border-radius: 28px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cross-svg:hover {
-    cursor: pointer;
-    background-color: #79C8C7;
-}
-
-.box h2 {
-    height: 28px;
-    width: 18.875rem;
-    text-align: center;
-    margin-left: 24px;
-    margin-top: 35px;
-    color: #79C8C7;
-    font-size: 18px;
-}
-
-.box h5 {
-    height: 75px;
-    width: 15.875rem;
-    margin-left: 48px;
-    margin-top: 8px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: center;
-    color: #FFFFFF;
-}
-/* svg */
-.social-svg {
-    width: 3.75rem;
-    height: 20px;
-    margin-left: 141px;
-    margin-top: 24px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.social-svg :hover {
-    cursor: pointer;
-    fill: #F67E7E;
-}
-/* svg */
-.close-svg {
-    width: 3.5rem;
-    height: 56px;
-    margin-top: 38px;
-    margin-left: 147px;
-    background: #79C8C7;
-    border-radius: 28px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
->>>>>>> 1778255 (Added new files)
->>>>>>> ddfd99b (Added changes)
-}
-
-<<<<<<< HEAD
-.box h3 {
-    height: 28px;
-    width: 18.875rem;
-    text-align: center;
-    margin-left: 24px;
-    color: #79C8C7;
-    font-size: 18px;
-}
-
-.box h4 {
-    height: 25px;
-    width: 18.875rem;
-    text-align: center;
-    margin-left: 24px;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;
-    color: #FFFFFF;
-}
-
-.flip-card-inner {
-    transition: transform 2s;
-    transform-style: preserve-3d;
-=======
->>>>>>> de19576 (Added changes)
     cursor: pointer;
 }
 
@@ -465,131 +287,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
->>>>>>> 2e48952 (Added new lines to the html and css lines)
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.box h3 {
-    height: 28px;
-    width: 18.875rem;
-    text-align: center;
-    margin-left: 24px;
-    color: #79C8C7;
-    font-size: 18px;
-}
-
-.box h4 {
-    height: 25px;
-    width: 18.875rem;
-    text-align: center;
-    margin-left: 24px;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;
-    color: #FFFFFF;
-}
-
-.flip-card-inner {
-    transition: transform 2s;
-    transform-style: preserve-3d;
-}
-
-.box:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-.flip-card-front {
-    background-color: #bbb;
-    color: black;
-}
-  
-.flip-card-back {
-    transform: rotateY(180deg);
-}
-/* svg */
-.cross-svg {
-    width: 3.5rem;
-    height: 3.5rem;
-    margin-top: 14rem;
-    margin-left: 147px;
-    background: #F67E7E;
-    border-radius: 28px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cross-svg:hover {
-    cursor: pointer;
-    background-color: #79C8C7;
-}
-
-.box h2 {
-    height: 28px;
-    width: 18.875rem;
-    text-align: center;
-    margin-left: 24px;
-    margin-top: 35px;
-    color: #79C8C7;
-    font-size: 18px;
-}
-
-.box h5 {
-    height: 75px;
-    width: 15.875rem;
-    margin-left: 48px;
-    margin-top: 8px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: center;
-    color: #FFFFFF;
-}
-/* svg */
-.social-svg {
-    width: 3.75rem;
-    height: 20px;
-    margin-left: 141px;
-    margin-top: 24px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.social-svg :hover {
-    cursor: pointer;
-    fill: #F67E7E;
-}
-/* svg */
-.close-svg {
-    width: 3.5rem;
-    height: 56px;
-    margin-top: 38px;
-    margin-left: 147px;
-    background: #79C8C7;
-    border-radius: 28px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-<<<<<<< HEAD
-=======
->>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
-=======
-=======
->>>>>>> f549e73 (Added files)
->>>>>>> 26f961b (Added changes)
-=======
->>>>>>> de19576 (Added changes)
 .close-svg:hover {
     cursor: pointer;
     background-color: #F67E7E;
@@ -598,93 +297,22 @@ body {
 .wrapper-tablet {
     display: none;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* svg */
-=======
-
->>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
-=======
-/* svg */
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
 .square-svg {
     margin-left: 86rem;
     margin-top: 1.2rem;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* clients section */
-=======
-
->>>>>>> 2e48952 (Added new lines to the html and css lines)
-=======
-/* clients section */
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-=======
-=======
->>>>>>> 26f961b (Added changes)
-/* clients section */
-=======
-
->>>>>>> 1778255 (Added new files)
-<<<<<<< HEAD
->>>>>>> ddfd99b (Added changes)
-=======
-=======
-/* clients section */
->>>>>>> f549e73 (Added files)
->>>>>>> 26f961b (Added changes)
-=======
-/* clients section */
->>>>>>> de19576 (Added changes)
 .content-clients {
     width: 100%;
     height: 437px;
     background:  #012F34;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-=======
->>>>>>> ddfd99b (Added changes)
-=======
-=======
->>>>>>> f549e73 (Added files)
->>>>>>> 26f961b (Added changes)
-=======
->>>>>>> de19576 (Added changes)
 .circ-svg{
     display: none;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2e48952 (Added new lines to the html and css lines)
-=======
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-=======
-=======
->>>>>>> 1778255 (Added new files)
->>>>>>> ddfd99b (Added changes)
-=======
-=======
->>>>>>> 1778255 (Added new files)
-=======
->>>>>>> f549e73 (Added files)
->>>>>>> 26f961b (Added changes)
-=======
->>>>>>> de19576 (Added changes)
 .container-hay {
     width: 57.5rem;
     height: 48px;
@@ -696,35 +324,7 @@ body {
     line-height: 48px;
     color: #FFFFFF;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* logos */
-=======
-
->>>>>>> 2e48952 (Added new lines to the html and css lines)
-=======
-/* logos */
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-=======
-=======
->>>>>>> 26f961b (Added changes)
-/* logos */
-=======
-
->>>>>>> 1778255 (Added new files)
-<<<<<<< HEAD
->>>>>>> ddfd99b (Added changes)
-=======
-=======
-/* logos */
->>>>>>> f549e73 (Added files)
->>>>>>> 26f961b (Added changes)
-=======
-/* logos */
->>>>>>> de19576 (Added changes)
 .logos-container {
     display: flex;
     width: 68.75rem;
@@ -734,54 +334,11 @@ body {
     text-align: center;
     justify-content: space-between;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ddfd99b (Added changes)
-=======
->>>>>>> 26f961b (Added changes)
-=======
->>>>>>> de19576 (Added changes)
 /* contact section */
 .content-contact {
     width: 100%;
     height: 200px;
     background: #F67E7E;    
-<<<<<<< HEAD
-=======
-
-.content-contact {
-    width: 100%;
-    height: 200px;
-    background: #F67E7E;
-    
-<<<<<<< HEAD
->>>>>>> 2e48952 (Added new lines to the html and css lines)
-=======
-/* contact section */
-.content-contact {
-    width: 100%;
-    height: 200px;
-    background: #F67E7E;    
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-=======
->>>>>>> 1778255 (Added new files)
-<<<<<<< HEAD
->>>>>>> ddfd99b (Added changes)
-=======
-=======
-/* contact section */
-.content-contact {
-    width: 100%;
-    height: 200px;
-    background: #F67E7E;    
->>>>>>> f549e73 (Added files)
->>>>>>> 26f961b (Added changes)
-=======
->>>>>>> de19576 (Added changes)
 }
 
 .contain {
@@ -799,68 +356,17 @@ body {
     line-height: 48px;
     color: #012F34;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* button */
-=======
-
->>>>>>> 2e48952 (Added new lines to the html and css lines)
-=======
-/* button */
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-=======
-=======
->>>>>>> 26f961b (Added changes)
-/* button */
-=======
-
->>>>>>> 1778255 (Added new files)
-<<<<<<< HEAD
->>>>>>> ddfd99b (Added changes)
-=======
-=======
-/* button */
->>>>>>> f549e73 (Added files)
->>>>>>> 26f961b (Added changes)
-=======
-/* button */
->>>>>>> de19576 (Added changes)
 .button-1 {
     width: 9.563rem;
     height: 3rem;
     border: 2px solid #012F34;
     border-radius: 24px ;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    color: #012F34;
->>>>>>> 2e48952 (Added new lines to the html and css lines)
-=======
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-=======
-=======
-    color: #012F34;
->>>>>>> 1778255 (Added new files)
->>>>>>> ddfd99b (Added changes)
-=======
-=======
-    color: #012F34;
->>>>>>> 1778255 (Added new files)
-=======
->>>>>>> f549e73 (Added files)
->>>>>>> 26f961b (Added changes)
-=======
->>>>>>> de19576 (Added changes)
     background: none;
     font-weight: 700;
     font-size: 1rem;
 }
+
 .button-1 a{
     text-decoration: none;
     color: #012F34;
@@ -880,34 +386,6 @@ body {
     margin-top: -68px;
 }
 /* footer section */
-<<<<<<< HEAD
-=======
-.circle-svg-3 {
-    margin-top: -68px;
-}
-
-<<<<<<< HEAD
->>>>>>> 2e48952 (Added new lines to the html and css lines)
-=======
-.circle-svg-3 {
-    margin-top: -68px;
-}
-/* footer section */
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-=======
->>>>>>> 1778255 (Added new files)
-<<<<<<< HEAD
->>>>>>> ddfd99b (Added changes)
-=======
-=======
-.circle-svg-3 {
-    margin-top: -68px;
-}
-/* footer section */
->>>>>>> f549e73 (Added files)
->>>>>>> 26f961b (Added changes)
-=======
->>>>>>> de19576 (Added changes)
 .footer {
     width: 100%;
     height: 196px;
@@ -949,35 +427,7 @@ body {
     opacity: 0.6;
     letter-spacing: 1px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* social-media svg's */
-=======
-
->>>>>>> 2e48952 (Added new lines to the html and css lines)
-=======
-/* social-media svg's */
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-=======
-=======
->>>>>>> 26f961b (Added changes)
-/* social-media svg's */
-=======
-
->>>>>>> 1778255 (Added new files)
-<<<<<<< HEAD
->>>>>>> ddfd99b (Added changes)
-=======
-=======
-/* social-media svg's */
->>>>>>> f549e73 (Added files)
->>>>>>> 26f961b (Added changes)
-=======
-/* social-media svg's */
->>>>>>> de19576 (Added changes)
 .handle {
     width: 6.5rem;
     height: 24px;
@@ -986,35 +436,7 @@ body {
     display: flex;
     justify-content: space-around;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* copyright */
-=======
-
->>>>>>> 2e48952 (Added new lines to the html and css lines)
-=======
-/* copyright */
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-=======
-=======
->>>>>>> 26f961b (Added changes)
-/* copyright */
-=======
-
->>>>>>> 1778255 (Added new files)
-<<<<<<< HEAD
->>>>>>> ddfd99b (Added changes)
-=======
-=======
-/* copyright */
->>>>>>> f549e73 (Added files)
->>>>>>> 26f961b (Added changes)
-=======
-/* copyright */
->>>>>>> de19576 (Added changes)
 .copyright {
     height: 25px;
     width: 15.938rem;
@@ -1028,46 +450,8 @@ body {
     mix-blend-mode: normal;
     opacity: 0.6;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ddfd99b (Added changes)
 /* Tablet responsiveness */
 @media  only screen and (max-width:768px) and (min-width:480px) {
-<<<<<<< HEAD
-=======
-
-=======
-/* Tablet responsiveness */
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-@media  only screen and (max-width:768px) and (min-width:480px) {
-
->>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
-=======
->>>>>>> a4c87cc (Added changes)
-=======
-/* Tablet responsiveness */
-@media  only screen and (max-width:768px) and (min-width:480px) {
-=======
-/* Tablet responsiveness */
-@media  only screen and (max-width:768px) and (min-width:480px) {
-<<<<<<< HEAD
-
->>>>>>> f549e73 (Added files)
-<<<<<<< HEAD
->>>>>>> 26f961b (Added changes)
-=======
-=======
->>>>>>> 4315a83 (About files)
->>>>>>> 5c6129b (Added changes)
-=======
-/* Tablet responsiveness */
-@media  only screen and (max-width:768px) and (min-width:480px) {
->>>>>>> de19576 (Added changes)
     .page{
         width: 100%;
         height: 100%;
@@ -1081,8 +465,6 @@ body {
         margin: 4rem 2.5rem;
     }
     .hero{
-<<<<<<< HEAD
-<<<<<<< HEAD
         width: 42.688rem;
         height: 220px;
         margin-left: 4.375rem;
@@ -1092,54 +474,20 @@ body {
         height: 56px;
         text-align: center;
         margin-top: 1.25rem;
-=======
-        width: 683px;
-=======
-        width: 42.688rem;
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-        height: 220px;
-        margin-left: 4.375rem;
-    }
-    .about h1{
-        width: 42.688rem;
-        height: 56px;
-        text-align: center;
-<<<<<<< HEAD
-        margin-top: 20px;
->>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
-=======
-        margin-top: 1.25rem;
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
     }
     .rect-svg{
         display: none;
     }
     .content-head{
-<<<<<<< HEAD
-<<<<<<< HEAD
         width: 27.5rem;
         height: 140px;
         margin-left: -40.625rem;
         margin-top: 7.5rem;
-=======
-        width: 440px;
-        height: 140px;
-        margin-left: -650px;
-        margin-top: 120px;
->>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
-=======
-        width: 27.5rem;
-        height: 140px;
-        margin-left: -40.625rem;
-        margin-top: 7.5rem;
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
         font-size: 15px;
         font-weight: 600;
         text-align: center;
     }
     .circle-svg{
-<<<<<<< HEAD
-<<<<<<< HEAD
         margin-top: 10.625rem;
         margin-left: -9.375rem;
     }
@@ -1147,44 +495,15 @@ body {
         width: 100%;
         height: 76.188rem;
         z-index: 1;
-=======
-        margin-top: 170px;
-        margin-left: -150px;
-    }
-    .layout{
-        width: 100%;
-        height: 1219px;
-<<<<<<< HEAD
->>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
-=======
-=======
-        margin-top: 10.625rem;
-        margin-left: -9.375rem;
-    }
-    .layout{
-        width: 100%;
-        height: 76.188rem;
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-        z-index: 1;
->>>>>>> 8c4bd13 (Finished tablet responsiveness and started mobile responsiveness)
     }
     .meet{
         margin-top: 90px;
         margin-left: -80px;
         font-size: 32px;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     .circle-svg-0{
         display: none;
     }
-=======
->>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
-=======
-    .circle-svg-0{
-        display: none;
-    }
->>>>>>> a4df894 (Worked on the mobile responsiveness)
     .circle-svg-1{
         margin-top: -137px;
     }
@@ -1201,18 +520,11 @@ body {
         margin: 97px;
         margin-top: -30px;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a4df894 (Worked on the mobile responsiveness)
     .container-1{
         justify-content: space-between;
         margin: 97px;
         margin-top: -30px;
     }
-<<<<<<< HEAD
-=======
->>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
     .box{
         height: 253px;
         width: 17.563rem;
@@ -1246,13 +558,9 @@ body {
     .social-svg{
         margin-left: 115px;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     .container-2{
         display: none;
     }
-=======
->>>>>>> 8c4bd13 (Finished tablet responsiveness and started mobile responsiveness)
     .content-clients{
         width: 100%;
         height: 308px;
@@ -1260,12 +568,9 @@ body {
     .circle-svg-2 svg{
         margin-top: -100px;
     }
-<<<<<<< HEAD
     .circ-svg{
         display: none;
     }
-=======
->>>>>>> 8c4bd13 (Finished tablet responsiveness and started mobile responsiveness)
     .container-hay{
         width: 457px;
         height: 32px;
@@ -1340,7 +645,6 @@ body {
         margin-top: -20px;       
     } 
 }
-<<<<<<< HEAD
 /* Mobile responsiveness */
 @media  only screen and (max-width:480px) and (min-width:320px) {
     .page{
@@ -1590,497 +894,4 @@ body {
     .footer-content{
         margin-left: 2.5rem;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
-<<<<<<< HEAD
->>>>>>> 2e48952 (Added new lines to the html and css lines)
-=======
-
-}
->>>>>>> 6818e38 (Added new lines to the html and started tablet responsiveness)
-=======
-
-@media  only screen and (max-width:480px) and (min-width:320px) {
-    .page{
-        width: 100%;
-        height: 100%;
-    }
-    .head{
-        width: 100%;
-        height: 520px;
-    }
-    .nav-header{
-        width: 90%;
-        margin: 4rem 2rem;
-    }
-    .nav1{
-        display: none;
-    }
-    .button{
-        display: none;
-    }
-    .menu-svg{
-        display: inline;
-        width: 8rem;
-        margin-left: 130px;
-    }
-    .hero{
-        width: 327px;
-        height: 252px;
-        margin-left: 24px;
-    }
-    .about{
-        height: 40px;
-        width: 327px;
-        text-align: center;
-    }
-    .about h1{
-        margin-top: -30px;
-        font-size: 40px;
-        margin-left: -10px;
-    }
-    .content-head{
-        width: 320px;
-        margin-top: 40px;
-        margin-left: -390px;
-        font-size: 15px;
-        text-align: center;
-    }
-    .circle-svg{
-        margin-left: -11.8rem;
-        margin-top: 15rem;
-    }
-    .layout{
-        width: 100%;
-        height: 2062px;
-        
-    }
-    .wrapper{
-        display: none;
-    }
-    .meet{
-        margin-top: 90px;
-        margin-left: -280px;
-    }
-    .meet h1{
-        font-size: 32px;
-    }
-    .circle-svg-1 svg{
-        margin-top: -40px;
-<<<<<<< HEAD
-        z-index: -1;
-    }
-    /*
-    .wrapper{
-        display: none;
-    }
-    .wrapper-tablet{
-        display: inline;
-        margin-top: 64px;
-        text-align: center;        
-    }
-    .container{
-        justify-content: space-between;
-        margin: 97px;
-        margin-top: -30px;
-    }
-=======
->>>>>>> a4df894 (Worked on the mobile responsiveness)
-    .box{
-        height: 253px;
-        width: 17.563rem;
-    }
-    .box h3{
-        margin-left: -15px;
-    }
-    
-    .box h4{
-        margin-left: -15px;        
-    }
-    .cross-svg{
-        margin-left: 117px;
-    }
-    .box h2{
-        text-align: center;
-        margin-left: -10px;      
-    }    
-    .box h5{
-        margin-left: 15px;
-        margin-top: 8px;
-        font-weight: 400;
-    }
-    .close-svg{
-        margin-left: 117px;
-    }
-    .square-svg{
-        margin-top: -46px;
-        margin-left: 621px;
-    }
-    .social-svg{
-        margin-left: 115px;
-    }
-    .container-2{
-        display: none;
-    }
-    .content-clients{
-        width: 100%;
-        height: 308px;
-    }
-    .circle-svg-2 svg{
-        margin-top: -100px;
-    }
-    .circ-svg{
-        display: none;
-    }
-    .container-hay{
-        width: 457px;
-        height: 32px;
-        margin-left: 150px;
-        margin-top: -10px;
-        font-size: 32px;
-        line-height: 32px;
-    }
-    .logos-container{
-        width: 689px;
-        height: 28px;
-        margin-left: 40px;
-    }
-    .logo img{
-        width: 103px;
-        height: 17px;
-    }
-    .logo-2 img{
-        width: 114px;
-        height: 14px;
-    }
-    .logo-3 img{
-        width: 112px;
-        height: 17px;
-    }
-    .logo-5 img{
-        width: 61px;
-        height: 28px;
-    }
-    .content-contact{
-        width: 100%;
-    }
-    .contain {
-        width: 57.313rem;
-        height: 48px;
-        justify-content: space-between;
-        margin-left: -250px;
-        margin-top: 76px;    
-    }
-    .container-ready{
-        width: 336px;
-        height: 32px;
-        font-size: 32px;
-        line-height: 32px;
-        margin-left: 350px;
-        margin-top: 10px;
-    }    
-    .circle-svg-3{
-        margin-top: -45px;
-    }
-    .footer{
-        width: 100%;
-        height: 271px;
-    }
-    .footer-content{
-        width: 689px;
-        height: 159px;
-        margin-left: 40px;
-        margin-top: 56px;
-    }
-    .contact-content{
-        margin-left: 240px;
-        margin-top: -98px;
-        text-align: right;
-    }
-    .handle{
-        margin-left: 0px;
-        margin-top: 30px;
-    }
-    .copyright{
-        margin-left: 430px;
-        margin-top: -20px;       
-    } 
-}
-<<<<<<< HEAD
-    */
-} 
->>>>>>> 8c4bd13 (Finished tablet responsiveness and started mobile responsiveness)
-=======
-=======
-/* Mobile responsiveness */
-@media  only screen and (max-width:480px) and (min-width:320px) {
-    .page{
-        width: 100%;
-        height: 100%;
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-    }
-<<<<<<< HEAD
->>>>>>> e2e3bcd (Finished tablet responsiveness and started mobile responsiveness)
-=======
-    .head{
-        width: 100%;
-        height: 520px;
-    }
-    .nav-header{
-        width: 90%;
-        margin: 4rem 2rem;
-    }
-    .nav1{
-        display: none;
-    }
-    .button{
-        display: none;
-    }
-    .menu-svg{
-        display: inline;
-        width: 8rem;
-        margin-left: 130px;
-    }
-    .hero{
-        width: 327px;
-        height: 252px;
-        margin-left: 24px;
-    }
-    .about{
-        height: 40px;
-        width: 327px;
-        text-align: center;
-    }
-    .about h1{
-        margin-top: -50px;
-        font-size: 40px;
-        margin-left: -10px;
-    }
-    .content-head{
-        width: 320px;
-        margin-top: 10px;
-        margin-left: -390px;
-        font-size: 15px;
-        text-align: center;
-    }
-    .circle-svg{
-        margin-left: -11.8rem;
-        margin-top: 15rem;
-    }
-    .circle-svg-1{
-        display: none;
-    }
-    .circle-svg-0{
-        display: inline;
-        position: relative;
-        top: -8rem;
-    }
-    .layout{
-        width: 100%;
-        height: 2062px;
-    }
-    .wrapper{
-        display: none;
-    }
-    .meet{
-        margin-top: 80px;
-        margin-left: -280px;
-    }
-    .meet h1{
-        font-size: 32px;
-    }
-    .circle-svg-1 svg{
-        margin-top: -40px;
-    }
-    .wrapper-tablet{
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: -6rem;
-    }
-    .container{
-        flex-wrap: wrap;
-    }    
-    .box{
-        margin-top: 45px;
-    }
-    .box img {
-        margin-left: 120px;
-    }
-    .container-2{        
-        margin-left: 15px;
-    }
-    .container-2 .cross-svg{
-        position: absolute;
-        margin-top: 14rem;
-    }
-    .container-1{
-        display: none;
-    }
-    .box h2 {
-        position: absolute;
-    }    
-    .box h5{        
-        position: absolute;
-        font-weight: 400;
-        margin-top: 70px;
-    }    
-    .social-svg{
-        position: absolute;
-        margin-top: 170px;
-    }
-    .close-svg{
-        position: absolute;
-        margin-top: 225px;
-    }
-    .square-svg{
-        margin-top: 38px;
-        margin-left: 228px;
-    }
-    .content-clients{
-        width: 100%;
-        height: 632px;
-    }
-    .circle-svg-2{
-        display: none;
-    }
-    .circ-svg{
-        display: inline;
-    }
-    .container-hay{
-        margin-left: -275px;
-        margin-top: -25px;
-        font-size: 32px;
-    }
-    .logos-container{
-        width: 162.21px;
-        height: 360px;
-        margin-left: 100px;
-        display: block;
-    }
-    .logo img{
-        width: 146px;
-        height: 25px;
-    }
-    .logo-2 img{
-        width: 162px;
-        height: 20px;
-        margin-top: 3.2rem;
-    }
-    .logo-3 img{
-        width: 160px;
-        height: 25px;
-        margin-top: 3.2rem;
-    }
-    .logo-4 img{
-        width: 146px;
-        height: 25px;
-        margin-top: 3.2rem;
-    }
-    .logo-5 img{
-        width: 86px;
-        height: 40px;
-        margin-top: 3.2rem;
-    }
-    .content-contact{
-        width: 100%;
-        height: 302px;
-    }
-    .contain{
-        display: block;
-        width: 327px;
-        height: 136px;
-        margin-left: 20px;
-        text-align: center;
-    }
-    .container-ready{
-        width: 200px;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 32px;
-        margin-left: 60px;
-    }
-    .button-1{
-        margin-top: 30px;
-    }
-    .circle-svg-3{
-        margin-top: -33px;
-    }
-    .footer{
-        width: 100%;
-        height: 432px;
-    }
-    .footer-content{
-        width: 327px;
-        height: 302px;
-        margin-left: 24px;
-        text-align: center;
-    }
-    .container-hat{
-        width: 107px;
-        margin-left: 110px;
-    }
-    .contact-content{
-        margin-left: -60px;
-        margin-top: 20px;
-        font-size: 20px;
-    }
-    .handle{
-        margin-left: 7rem;
-        margin-top: 30px;
-    }
-    .copyright{
-        margin-left: 2rem;
-        margin-top: 1rem;
-    }
-}
-<<<<<<< HEAD
->>>>>>> a4df894 (Worked on the mobile responsiveness)
-=======
-
-@media only screen and (max-width: 420px) and (min-width: 398px) {
-    .menu-svg{
-        margin-left: 10rem;
-    }
-    .about{
-        margin-left: 1.5rem;
-    }
-    .circle-svg{
-        margin-left: -10.9rem;
-    }
-    .meet h1{
-        margin-left: 3rem;
-    }
-    .container-2{        
-        margin-left: 2rem;
-    }
-    .square-svg{
-        margin-left: 16.7rem;
-    }
-    .container-hay{
-        margin-left: -16rem;
-    }
-    .logos-container{
-        margin-left: 7.5rem;
-    }
-    .contain{
-        margin-left: 3rem;
-    }
-    .footer-content{
-        margin-left: 2.5rem;
-    }
-}
->>>>>>> 48270f8 (Finished mobile responsiveness and added comment)
-=======
->>>>>>> 1778255 (Added new files)
-<<<<<<< HEAD
->>>>>>> ddfd99b (Added changes)
-=======
-=======
-}
->>>>>>> f549e73 (Added files)
->>>>>>> 26f961b (Added changes)
-=======
-}
->>>>>>> de19576 (Added changes)
