@@ -1,6 +1,6 @@
 # myteam_mp | README Guide
 
-![Amalitech](amalitech.jpeg)
+![Amalitech](/assets/amalitech.jpeg)
 
 # Project Discription
 
