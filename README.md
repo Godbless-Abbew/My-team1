@@ -42,6 +42,6 @@ HTML, CSS and JAVASCRIPT
 
 # Participants
 
-[@ericmanu] (https://github.com/ericmanu)
-[@Godbless-Abbew] (https://github.com/Godbless-Abbew)
+[@ericmanu] (https://github.com/ericmanu) <br>
+[@Godbless-Abbew] (https://github.com/Godbless-Abbew) <br>
 [@kevin68107] (https://github.com/kevin68107)
