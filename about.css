@@ -227,7 +227,7 @@ body {
 .cross-svg {
     width: 3.5rem;
     height: 3.5rem;
-    margin-top: 14rem;
+    margin-top: 2.3rem;
     margin-left: 147px;
     background: #F67E7E;
     border-radius: 28px;
@@ -737,10 +737,6 @@ body {
     }
     .container-2{        
         margin-left: 15px;
-    }
-    .container-2 .cross-svg{
-        position: absolute;
-        margin-top: 14rem;
     }
     .container-1{
         display: none;
