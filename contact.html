@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | myteam website challenge - Contact</title>
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="contact.css">
-  <script src="contact.js"></script>
+  <!-- <script src="contact.js"></script> -->
+  <script src="contactvalidation.js"></script>
   
-  <title>Frontend Mentor | myteam website challenge - Contact</title>
+
 </head>
 <body>
   <div class="container">
@@ -20,19 +22,12 @@
             <a href="about.html"><li>about</li></a>
           </div>
       </div>
-      <!-- <div id="teamSidenav" class="sidenav">
-        <ul class="nav-links">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="index.html"><li>home</li></a>
-          <a href="about.html"><li>about</li></a>
-        </ul>
-      </div>
-      <!-<img class="openNav" onclick="openNav()" src="./assets/icon-hamburger.svg" alt=""> -->
-      
-      <!--<img onclick="closeNav()" src="./assets/icon-close.svg" alt=""> -->
       <nav class="nav">
         <a class="btn-1" href="contact.html"><li>contact us</li></a>
       </nav>
+      <div class="menu-svg">
+        <img src="./assets/icon-hamburger.svg" alt="">
+      </div>
     </header>
     <div class="side-left">
       <img src="./assets/bg-pattern-about-2-contact-1.svg" alt="">
@@ -59,15 +54,16 @@
           </div>
           <div class="content-body-right">
             <form id="form">
+            <!-- <form onsubmit="return validateForm()"> -->
               <div class="input-box">
-                <input type="text" id="username" name="username" placeholder="Name" required>
-                <div class="error"></div>
+                <input type="text" id="username" name="username" placeholder="Name">
+                <p id="name_error"></p>
               </div>
 
             <div class="input-box">
               <input type="email" name="email" id="email" placeholder="Email Address">
-              <div class="error"></div>
             </div> 
+            <p id="email_error"></p>
             
            <div class="input-box">
             <input type="text" name="Company Name" id="" placeholder="Company Name">
@@ -122,13 +118,5 @@
     </div>
   </div>
   </div>
-  <!-- <script>
-    /* Set the width of the side navigation to 250px */
-    function openNav() {
-  document.getElementById("teamSidenav").style.width = "250px";
-  }
-
-  </script> -->
-  <script src="./menu.js"></script>
 </body>
 </html>

@@ -70,6 +70,10 @@ nav{
     justify-content: space-between;
 }
 
+.menu-svg {
+    display: none;
+}
+
 .nav > a{
     color: #FFFFFF;
 }
@@ -234,6 +238,11 @@ form .input-box input:is(:focus,),
 form .input-box textarea:is(:focus){
     border-bottom-color: #79C8C7;
 }
+
+#email_error{
+    
+}
+
 .input-box button{
     padding: 10px 30px;
     border-radius: 50px;
@@ -352,6 +361,10 @@ form .input-box textarea:is(:focus){
         align-items: center;
         justify-content: space-between;
         margin-right: 0;
+    }
+
+    .menu-svg{
+        display: none;
     }
 
     .btn-1{
@@ -484,6 +497,12 @@ form .input-box textarea:is(:focus){
         color: #F67E7E;
     }
 
+    .menu-svg{
+        display: inline;
+        width: 8rem;
+        margin-left: 130px;
+     }
+
     .content-body-left p{
         font-size: 1.2rem;
         line-height: 36px;
@@ -495,7 +514,7 @@ form .input-box textarea:is(:focus){
     }
     .side-right{
         position: absolute;
-        left: 18.5rem;
+        left: 21rem;
         top: 66rem;
         width: 88px;
         overflow: hidden;
@@ -510,6 +529,9 @@ form .input-box textarea:is(:focus){
         display: flex;
         align-items: center;
         margin: 0;
+        position: absolute;
+        right: 0;
+        left: 0;
     }
 
     .footer-content{
@@ -550,6 +572,8 @@ form .input-box textarea:is(:focus){
         align-items: center;
     }
 }
+
+/* @media only screen and (max-width: 480px) and (min-width: px) { */
 
 /* Mobile view small */
   @media screen and (max-width: 375px) {
@@ -602,6 +626,11 @@ form .input-box textarea:is(:focus){
 
     .links, .nav{
         display: none;
+    }
+    .menu-svg{
+       display: inline;
+       width: 8rem;
+       margin-left: 130px;
     }
     .side-right{
         position: absolute;
