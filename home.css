@@ -855,7 +855,77 @@ body{
         left: -8rem;
     }
 }
+ /* mob-menu */
 
+ @media screen  and (min-width: 490px){
+     .mob-list{
+         display: none;
+     }
+     
+ }
+ .mob-open{
+     /* position: fixed; */
+     right: 1.5rem;
+     top: 5.3rem;
+ }
+ .mob-list{
+     height: 667px;
+     width: 255px;
+     position: fixed;
+     right: 0;
+    top: 0rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 1.5rem;
+
+     background-color: #014E56;
+     z-index: 2;
+ }
+
+ .mob-list_item{
+     position: relative;
+     color: #fff;
+     text-decoration: none;
+     top: 9rem;
+     left: -3.5rem;
+ }
+ .button{
+     position: fixed;
+    width: 9.563rem;
+    height: 3rem;
+    border: 2px solid #fff;
+    border-radius: 1.5rem;
+    background: none;
+    font-weight: 700;
+    font-size: 1rem;
+    top: 15rem;
+}
+ .button a{
+     text-decoration: none;
+     color: #fff;
+ }
+ 
+ .mob-close{
+     position: fixed;
+     right: 30px;
+     top: 5.3rem;
+     z-index: 5;
+ }
+ 
+ .menu-svg{
+     position: relative;
+     top: 23.8rem;
+     left: 8rem;
+ }
+ 
+ /* js */
+ .opened{
+     opacity: 1;
+ }
+ .close{
+     opacity: 0;
+ }
 
 
 
