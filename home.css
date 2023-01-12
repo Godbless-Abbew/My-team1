@@ -91,6 +91,9 @@ body{
     color: #002529;
     cursor: pointer;
 }
+.mob-menu{
+    display: none;
+}
 .svg-3{
     display: none;
 }
@@ -651,6 +654,9 @@ body{
     .nav-btn{
         display: none;
     }
+    .mob-menu{
+        display: inline;
+    }
     .svg-3{
         display: inline;
     }
@@ -857,12 +863,12 @@ body{
 }
  /* mob-menu */
 
- @media screen  and (min-width: 490px){
+ /* @media screen  and (min-width: 490px){
      .mob-list{
          display: none;
      }
      
- }
+ } */
  .mob-open{
      /* position: fixed; */
      right: 1.5rem;
