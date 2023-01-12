@@ -237,9 +237,7 @@ form .input-box textarea:is(:focus){
     border-bottom-color: #79C8C7;
 }
 
-#email_error{
-    
-}
+
 
 .input-box button{
     padding: 10px 30px;
