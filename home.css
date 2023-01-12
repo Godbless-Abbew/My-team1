@@ -95,6 +95,10 @@ body{
     display: none;
 }
 
+.mob-menu{
+    display: none;
+}
+
 .talent{
     width: 80%;
     margin: 6.563rem 10.313rem;

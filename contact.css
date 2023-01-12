@@ -72,6 +72,10 @@ nav{
     display: none;
 }
 
+.mob-menu{
+    display: none;
+}
+
 .nav > a{
     color: #FFFFFF;
 }
@@ -237,9 +241,6 @@ form .input-box textarea:is(:focus){
     border-bottom-color: #79C8C7;
 }
 
-#email_error{
-    
-}
 
 .input-box button{
     padding: 10px 30px;
@@ -582,10 +583,18 @@ form .input-box textarea:is(:focus){
     }
 }
 
-/* @media only screen and (max-width: 480px) and (min-width: px) { */
+@media screen and (max-width: 375px) {
+    .side-right{
+        position: absolute;
+        left: 20rem;
+        top: 66rem;
+        width: 88px;
+        overflow: hidden;
+    }
+}
 
 /* Mobile view small */
-  @media screen and (max-width: 375px) {
+  @media only screen and (max-width: 420px) and (min-width:318px){
     body{
         overflow-x: hidden;
         width: var(--mobile-width);
@@ -597,6 +606,9 @@ form .input-box textarea:is(:focus){
 
     .logo > img{
         width: 100px;
+    }
+    .mob-menu{
+        display: inline;
     }
     .content {
       grid-template-columns: 1fr;
@@ -707,4 +719,70 @@ form .input-box textarea:is(:focus){
         font-size: 14px;
         align-items: center;
     }
+  }
+
+
+.mob-open{
+    /* position: fixed; */
+    right: 1rem;
+    top: 5.3rem;
 }
+.mob-list{
+    height: 667px;
+    width: 255px;
+    position: fixed;
+    right: 0;
+   top: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+    background-color: #014E56;
+    z-index: 2;
+}
+
+.mob-list_item{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    top: 9rem;
+    left: -3.5rem;
+}
+.button{
+    position: fixed;
+   width: 9.563rem;
+   height: 3rem;
+   border: 2px solid #fff;
+   border-radius: 1.5rem;
+   background: none;
+   font-weight: 700;
+   font-size: 1rem;
+   top: 15rem;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.mob-close{
+    position: fixed;
+    right: 30px;
+    top: 5.3rem;
+    z-index: 5;
+}
+
+.menu-svg-1{
+    position: relative;
+    top: 23.8rem;
+    left: 8rem;
+}
+
+/* js */
+.opened{
+    opacity: 1;
+}
+.close{
+    opacity: 0;
+}
+  
